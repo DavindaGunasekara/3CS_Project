@@ -1,0 +1,441 @@
+@font-face {
+  font-family: 'maicons';
+  src:  url('../fonts/maicons.eot?c9nlkl');
+  src:  url('../fonts/maicons.eot?c9nlkl#iefix') format('embedded-opentype'),
+    url('../fonts/maicons.ttf?c9nlkl') format('truetype'),
+    url('../fonts/maicons.woff?c9nlkl') format('woff'),
+    url('../fonts/maicons.svg?c9nlkl#maicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mai-"], [class*=" mai-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'maicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mai-add:before {
+  content: "\e900";
+}
+.mai-add-circle:before {
+  content: "\e901";
+}
+.mai-add-circle-outline:before {
+  content: "\e902";
+}
+.mai-airplane:before {
+  content: "\e903";
+}
+.mai-airplane-outline:before {
+  content: "\e904";
+}
+.mai-alarm:before {
+  content: "\e905";
+}
+.mai-alarm-outline:before {
+  content: "\e906";
+}
+.mai-albums:before {
+  content: "\e907";
+}
+.mai-albums-outline:before {
+  content: "\e908";
+}
+.mai-alert:before {
+  content: "\e909";
+}
+.mai-bar-chart-outline:before {
+  content: "\e933";
+}
+.mai-barbell:before {
+  content: "\e931";
+}
+.mai-barcode:before {
+  content: "\e934";
+}
+.mai-barcode-outline:before {
+  content: "\e935";
+}
+.mai-baseball:before {
+  content: "\e936";
+}
+.mai-baseball-outline:before {
+  content: "\e937";
+}
+.mai-basket:before {
+  content: "\e938";
+}
+.mai-basket-outline:before {
+  content: "\e93b";
+}
+.mai-basketball:before {
+  content: "\e939";
+}
+.mai-basketball-outline:before {
+  content: "\e93a";
+}
+.mai-battery-charging:before {
+  content: "\e93c";
+}
+.mai-battery-dead:before {
+  content: "\e93d";
+}
+.mai-battery-full:before {
+  content: "\e93e";
+}
+.mai-battery-half:before {
+  content: "\e93f";
+}
+.mai-beaker:before {
+  content: "\e940";
+}
+.mai-beaker-outline:before {
+  content: "\e941";
+}
+.mai-bed:before {
+  content: "\e942";
+}
+.mai-bed-outline:before {
+  content: "\e943";
+}
+.mai-beer:before {
+  content: "\e944";
+}
+.mai-beer-outline:before {
+  content: "\e945";
+}
+.mai-bicycle:before {
+  content: "\e946";
+}
+.mai-bluetooth:before {
+  content: "\e947";
+}
+.mai-boat:before {
+  content: "\e948";
+}
+.mai-boat-outline:before {
+  content: "\e949";
+}
+.mai-body:before {
+  content: "\e94a";
+}
+.mai-body-outline:before {
+  content: "\e94b";
+}
+.mai-bonfire:before {
+  content: "\e94c";
+}
+.mai-bonfire-outline:before {
+  content: "\e94d";
+}
+.mai-book:before {
+  content: "\e94e";
+}
+.mai-book-outline:before {
+  content: "\e953";
+}
+.mai-bookmark:before {
+  content: "\e94f";
+}
+.mai-bookmark-outline:before {
+  content: "\e950";
+}
+.mai-bookmarks:before {
+  content: "\e951";
+}
+.mai-bookmarks-outline:before {
+  content: "\e952";
+}
+.mai-briefcase:before {
+  content: "\e954";
+}
+.mai-briefcase-outline:before {
+  content: "\e955";
+}
+.mai-browsers:before {
+  content: "\e956";
+}
+.mai-browsers-outline:before {
+  content: "\e957";
+}
+.mai-brush:before {
+  content: "\e958";
+}
+.mai-brush-outline:before {
+  content: "\e959";
+}
+.mai-bug:before {
+  content: "\e95a";
+}
+.mai-bug-outline:before {
+  content: "\e95b";
+}
+.mai-build:before {
+  content: "\e95c";
+}
+.mai-build-outline:before {
+  content: "\e95d";
+}
+.mai-locate:before {
+  content: "\ea6c";
+}
+.mai-location:before {
+  content: "\ea6d";
+}
+.mai-location-outline:before {
+  content: "\ea6e";
+}
+.mai-logo-facebook:before {
+  content: "\ebe0";
+}
+.mai-logo-facebook-f:before {
+  content: "\ebe1";
+}
+.mai-logo-facebook-messenger:before {
+  content: "\ebe2";
+}
+.mai-logo-firebase:before {
+  content: "\ebe3";
+}
+.mai-logo-firefox:before {
+  content: "\ebe4";
+}
+.mai-logo-flickr:before {
+  content: "\ebe5";
+}
+.mai-logo-flipboard:before {
+  content: "\ebe6";
+}
+.mai-logo-fly:before {
+  content: "\ebe7";
+}
+.mai-logo-foursquare:before {
+  content: "\ebe8";
+}
+.mai-logo-freebsd:before {
+  content: "\ebe9";
+}
+.mai-logo-gg:before {
+  content: "\ebea";
+}
+.mai-logo-git:before {
+  content: "\ebeb";
+}
+.mai-logo-github:before {
+  content: "\ebec";
+}
+.mai-logo-github-alt:before {
+  content: "\ebed";
+}
+.mai-logo-gitlab:before {
+  content: "\ebee";
+}
+.mai-logo-gitter:before {
+  content: "\ebef";
+}
+.mai-logo-glide:before {
+  content: "\ebf0";
+}
+.mai-logo-glide-g:before {
+  content: "\ebf1";
+}
+.mai-logo-google:before {
+  content: "\ebf2";
+}
+.mai-logo-google-drive:before {
+  content: "\ebf3";
+}
+.mai-logo-google-play:before {
+  content: "\ebf4";
+}
+.mai-logo-google-playstore:before {
+  content: "\ebf5";
+}
+.mai-logo-google-plus:before {
+  content: "\ebf6";
+}
+.mai-logo-google-plus-g:before {
+  content: "\ebf7";
+}
+.mai-logo-google-wallet:before {
+  content: "\ebf8";
+}
+.mai-logo-grunt:before {
+  content: "\ebf9";
+}
+.mai-logo-gulp:before {
+  content: "\ebfa";
+}
+.mai-logo-hackernews:before {
+  content: "\ebfb";
+}
+.mai-logo-hotjar:before {
+  content: "\ebfc";
+}
+.mai-logo-html5:before {
+  content: "\ebfd";
+}
+.mai-logo-hubspot:before {
+  content: "\ebfe";
+}
+.mai-logo-imdb:before {
+  content: "\ebff";
+}
+.mai-logo-instagram:before {
+  content: "\ec00";
+}
+.mai-logo-internet-explorer:before {
+  content: "\ec01";
+}
+.mai-logo-ionic:before {
+  content: "\ec02";
+}
+.mai-logo-ionitron:before {
+  content: "\ec03";
+}
+.mai-logo-itunes:before {
+  content: "\ec04";
+}
+.mai-logo-java:before {
+  content: "\ec05";
+}
+.mai-logo-javascript:before {
+  content: "\ec06";
+}
+.mai-logo-joomla:before {
+  content: "\ec07";
+}
+.mai-logo-jsfiddle:before {
+  content: "\ec08";
+}
+.mai-logo-keycdn:before {
+  content: "\ec09";
+}
+.mai-logo-laravel:before {
+  content: "\ec0a";
+}
+.mai-logo-lastfm:before {
+  content: "\ec0b";
+}
+.mai-logo-leanpub:before {
+  content: "\ec0c";
+}
+.mai-logo-less:before {
+  content: "\ec0d";
+}
+.mai-logo-line:before {
+  content: "\ec0e";
+}
+.mai-logo-linkedin:before {
+  content: "\ec0f";
+}
+.mai-logo-linux:before {
+  content: "\ec10";
+}
+.mai-logo-magento:before {
+  content: "\ec11";
+}
+.mai-logo-mailchimp:before {
+  content: "\ec12";
+}
+.mai-logo-markdown:before {
+  content: "\ec13";
+}
+.mai-logo-maxcdn:before {
+  content: "\ec14";
+}
+.mai-logo-medium:before {
+  content: "\ec15";
+}
+.mai-logo-medium-m:before {
+  content: "\ec16";
+}
+.mai-logo-meetup:before {
+  content: "\ec17";
+}
+.mai-logo-microsoft:before {
+  content: "\ec18";
+}
+.mai-logo-mix:before {
+  content: "\ec19";
+}
+.mai-logo-mixcloud:before {
+  content: "\ec1a";
+}
+.mai-logo-staylinked:before {
+  content: "\ec41";
+}
+.mai-logo-steam:before {
+  content: "\ec42";
+}
+.mai-logo-teamspeak:before {
+  content: "\ec46";
+}
+.mai-logo-telegram:before {
+  content: "\ec47";
+}
+.mai-logo-tumblr:before {
+  content: "\ec4a";
+}
+.mai-logo-twitter:before {
+  content: "\ec4d";
+}
+.mai-logo-uber:before {
+  content: "\ec4e";
+}
+.mai-logo-viber:before {
+  content: "\ec53";
+}
+.mai-logo-whatsapp:before {
+  content: "\ec5a";
+}
+.mai-logo-wikipedia-w:before {
+  content: "\ec5c";
+}
+.mai-logo-windows:before {
+  content: "\ec5d";
+}
+.mai-logo-youtube:before {
+  content: "\ec64";
+}
+.mai-mail:before {
+  content: "\ea79";
+}
+.mai-mail-open:before {
+  content: "\ea7a";
+}
+.mai-mail-open-outline:before {
+  content: "\ea7b";
+}
+.mai-mail-outline:before {
+  content: "\ea7c";
+}
+.mai-mail-unread:before {
+  content: "\ea7d";
+}
+.mai-mail-unread-outline:before {
+  content: "\ea7e";
+}
+.mai-phone-landscape:before {
+  content: "\eaca";
+}
+.mai-phone-landscape-outline:before {
+  content: "\eacb";
+}
+.mai-phone-portrait:before {
+  content: "\eacc";
+}
+.mai-phone-portrait-outline:before {
+  content: "\eacd";
+}
